@@ -6,6 +6,17 @@
   <title>Curriculum Vitae</title>
   <!-- Sertakan file Bootstrap CSS -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Sertakan font Awesome untuk ikon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .profile-img {
+      border-radius: 50%;
+      max-width: 150px;
+    }
+  </style>
 </head>
 <body>
 
@@ -13,31 +24,37 @@
     <div class="row">
       <div class="col-md-8 offset-md-2">
         <div class="card">
-          <div class="card-header bg-primary text-white">
-            <h2 class="text-center">Curriculum Vitae</h2>
+          <div class="card-header bg-primary text-white text-center">
+            <h2>Curriculum Vitae</h2>
           </div>
-          <div class="card-body">
+          <div class="card-body text-center">
+            <img src="path-to-your-profile-image.jpg" alt="Profile Picture" class="profile-img mb-4">
             <h4 class="card-title">Nama Lengkap</h4>
             <p class="card-text">Alamat: Alamat Anda</p>
             <p class="card-text">Telepon: Nomor Telepon Anda</p>
             <p class="card-text">Email: Email Anda</p>
 
             <h4 class="mt-4">Pendidikan</h4>
-            <ul>
-              <li>Sarjana, Jurusan, Universitas, Tahun</li>
-              <li>SMA/SMK, Sekolah, Tahun</li>
+            <ul class="list-group">
+              <li class="list-group-item">Sarjana, Jurusan, Universitas, Tahun</li>
+              <li class="list-group-item">SMA/SMK, Sekolah, Tahun</li>
             </ul>
 
             <h4 class="mt-4">Pengalaman Kerja</h4>
-            <p>Nama Perusahaan - Posisi - Tahun</p>
-            <p>Nama Perusahaan - Posisi - Tahun</p>
+            <p class="card-text">Nama Perusahaan - Posisi - Tahun</p>
+            <p class="card-text">Nama Perusahaan - Posisi - Tahun</p>
 
             <h4 class="mt-4">Keterampilan</h4>
-            <ul>
-              <li>Keterampilan 1</li>
-              <li>Keterampilan 2</li>
-              <li>Keterampilan 3</li>
+            <ul class="list-group">
+              <li class="list-group-item">Keterampilan 1</li>
+              <li class="list-group-item">Keterampilan 2</li>
+              <li class="list-group-item">Keterampilan 3</li>
             </ul>
+
+            <div class="mt-4">
+              <a href="#" class="btn btn-primary mr-2"><i class="fab fa-linkedin"></i> LinkedIn</a>
+              <a href="#" class="btn btn-info"><i class="fab fa-twitter"></i> Twitter</a>
+            </div>
           </div>
         </div>
       </div>
